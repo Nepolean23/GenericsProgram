@@ -1,4 +1,7 @@
 ﻿using FindMaximumNumber;
-//MaximumIntengersNumber
-int intoutput=UC_1.MaximumIntengersNumbers(1,2,3);
-Console.WriteLine(intoutput);
+///MaximumIntengersNumbers
+//int intoutput=UC_1.MaximumIntengersNumbers(1,2,3);
+//Console.WriteLine(intoutput);
+//MaximumFloatNumbers
+double doubleoutput=UC_2.MaximumNumbers(1.1,2.1,3.1);
+Console.WriteLine(doubleoutput);
