@@ -20,5 +20,5 @@ using System.Xml;//*MaximumIntengersNumbers
 //Console.WriteLine(intoutput);
 //double doubleoutput = Refactor2<double>.MaximumNumbers(35.9, 59.4, 98.5);
 //Console.WriteLine(doubleoutput);
-string stringoutput = Refactor2<string>.MaximumNumbers("Pen", "Scale", "Sharpner");
+string stringoutput = UC_4<string>.MaximumNumbers("Pen", "Scale", "Sharpner");
 Console.WriteLine(stringoutput);
