@@ -20,5 +20,9 @@ using System.Xml;//*MaximumIntengersNumbers
 //Console.WriteLine(intoutput);
 //double doubleoutput = Refactor2<double>.MaximumNumbers(35.9, 59.4, 98.5);
 //Console.WriteLine(doubleoutput);
-string stringoutput = UC_4<string>.MaximumNumbers("Pen", "Scale", "Sharpner");
-Console.WriteLine(stringoutput);
+//string stringoutput = UC_4<string>.MaximumNumbers("Pen", "Scale", "Sharpner");
+//Console.WriteLine(stringoutput);
+//*Generics Method Which Called Internaly To Test MaximumVlaue
+int[] arr = {100,200,300,400,500};
+UC_5<int>generic=new UC_5<int>(arr);
+generic.PrintMaxValue();
